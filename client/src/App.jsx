@@ -1,19 +1,7 @@
-import Users from "./components/Users";
-import "./index.css";
+import Users from "../components/Users";
 
 function App() {
-  return (
-    <div className="app">
-      <header>
-        <h1>MERN Error Handling</h1>
-        <p>Centralized Error Handling & Standard API Responses</p>
-      </header>
-
-      <main>
-        <Users />
-      </main>
-    </div>
-  );
+  return <Users />;
 }
 
 export default App;
