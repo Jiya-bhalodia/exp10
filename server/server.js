@@ -17,7 +17,7 @@ app.use(
     origin: [
       "http://localhost:3000",
       "http://localhost:5173",
-      "https://exp10-alpha.vercel.app"
+      "https://exp10-ep1v.vercel.app"
     ]
   })
 );
