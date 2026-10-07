@@ -11,13 +11,11 @@ const errorHandler = require("./middleware/errorHandler");
 const app = express();
 
 // CORS
-
 app.use(
   cors({
     origin: [
       "http://localhost:3000",
-      "http://localhost:5173",
-      "https://exp10-alpha.vercel.app"
+      "http://localhost:5173"
     ]
   })
 );
