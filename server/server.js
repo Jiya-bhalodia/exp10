@@ -18,7 +18,9 @@ app.use(
       "http://localhost:3000",
       "http://localhost:5173",
       "https://exp10-ep1v.vercel.app"
-    ]
+    ],
+    methods: ["GET", "POST", "PUT", "DELETE"],
+    credentials: true
   })
 );
 
